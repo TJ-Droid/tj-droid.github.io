@@ -1,0 +1,14 @@
+{
+  "name": "tj-droid.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TJ-Droid/tj-droid.github.io.git",
+  "author": "TJ Droid App <tjdroidapp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "yarn live-server"
+  }
+}
