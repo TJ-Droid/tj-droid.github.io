@@ -28,6 +28,7 @@
   --grey-850: #191919;
   --cyan-700: #0f8d95;
   --blue-500: #007bb0;
+  --dark-blue-500: #013861;
 }
 
 @media (max-width: 1080px) {
@@ -66,6 +67,14 @@ hr {
 
 .github-icon{
     cursor: pointer;
+}
+
+.container:first-child {
+    background: var(--grey-850);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid var(--dark-blue-500);
 }
 
 .container {
